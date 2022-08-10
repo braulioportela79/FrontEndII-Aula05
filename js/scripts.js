@@ -5,7 +5,7 @@ const itemText = document.querySelectorAll('.item h2, p');
 const toggleText = document.querySelector('.toggle p');
 const toggleInitialText = 'Dark Mode';
 // const btn = document.getElementById('btn');
-// }
+
  const toggleTheme = () => {
     body.classList.toggle('body-dark-mode');
 
